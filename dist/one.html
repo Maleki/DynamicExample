@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="dynamicResources" ng-controller="MainController">
+<head >
+    <script data-require="angular.js@1.6.0" data-semver="1.6.0" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.js"></script>
+    <script src="one.js"></script>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div>Hostname: {{hostNameShow}}</div>
+    <div>MockName: {{hostName}}</div>
+    <div>ImageUrl: {{imageUrl}}</div>
+    <img ng-src="{{imageUrl}}" alt="">
+</body>
+</html>
